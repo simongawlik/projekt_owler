@@ -2,7 +2,7 @@
 # (C) Simon Gawlik
 # started 8/2/2015
 
-# OCaml, baby!
+# Almost OCaml, baby!
 import functools
 
 
