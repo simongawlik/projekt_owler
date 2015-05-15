@@ -15,9 +15,8 @@ lower_bound = (10 ** (digits - 1)) ** 2
 lo_digit = 10 ** (digits - 1)
 hi_digit = (10 ** digits) - 1
 
-print ("upper bound: " + str(upper_bound))
-print ("lower bound: " + str(lower_bound))
-
+#print ("upper bound: " + str(upper_bound))
+#print ("lower bound: " + str(lower_bound))
 
 
 # turn number into an array
@@ -29,9 +28,7 @@ def array_of_number (y):
         y = y // 10
     return (a)
 
-test1 = array_of_number (198001)    
-print (test1)
-print (len(test1))
+assert array_of_number(198001) == [1, 0, 0, 8, 9, 1]
 
 
 # compare corresponding digits to each other
