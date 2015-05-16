@@ -9,6 +9,7 @@ f2 = 2
 tmp = 0
 sum = 0
 
+# sum fib numbers
 while f2 < 4000000:
     tmp = f1
     f1 = f2
@@ -16,4 +17,4 @@ while f2 < 4000000:
     if f1 % 2 == 0:
         sum = sum + f1
 
-print ("SUM: " + str(sum))
+print ("Sum: " + str(sum))

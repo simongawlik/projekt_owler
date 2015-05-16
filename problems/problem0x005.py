@@ -2,7 +2,7 @@
 # (C) Simon Gawlik
 # started 8/1/2015
 
-n = 15          #232792560
+n = 20          #232792560
 primes = []
 non_primes = []
 
@@ -19,9 +19,10 @@ def primes_lt_n (n):
             non_primes.append(num)
 
 primes_lt_n (n)
-print (primes)
-print (non_primes)
+#print (primes)
+#print (non_primes)
 
+# find the product of all the positive integers smaller than or equal to number
 def get_max_product (number):
     if number <= 2:
         return (number)

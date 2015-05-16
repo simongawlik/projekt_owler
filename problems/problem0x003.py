@@ -7,15 +7,15 @@ n = 600851475143
 max_factor = 0
 max_prime_factor = 0
 
+# determine if a number is prime
 def is_prime (factor):
     for i in range (2, factor):     # use sqrt
         if factor % i == 0:
             return (max_prime_factor)
     print ("prime factor: " + str(factor))
-    # n = n / factor
     return (factor)
     
-
+# find the largest prime factor of n 
 for counter in range (2, n):        # divide last number by 2
     if n % counter == 0:
         max_factor = counter

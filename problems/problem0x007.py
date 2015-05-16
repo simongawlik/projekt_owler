@@ -9,9 +9,10 @@ nth_prime = 10001
 n_counter = 2
 prime_counter = 0            
 
+# count the number of primes, break on nth
 while (True):
     prime = True
-    #for i in range (2, n_counter):
+    # only go up to the sqare root to speed up algorithm
     for i in range (2, math.floor(math.sqrt(n_counter)) + 1):
         if n_counter % i == 0:
             prime = False
